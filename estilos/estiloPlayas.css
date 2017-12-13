@@ -1,0 +1,87 @@
+h1,
+h2,
+h3 {
+    text-align: center;
+    background-color: #cc6600;
+    color: #000066;
+    border: 2px dotted brown;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-family: "Century Gothic", sans-serif;
+}
+
+body {
+    background-color: #cc6600;
+    color: white;
+    font-family: "Century Gothic", sans-serif;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 2px dotted brown;
+}
+
+strong {
+    color: #000066;
+}
+
+em {
+    border-bottom: 1px dashed #000066;
+}
+
+ol {
+    list-style-type: upper-roman;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+span {
+    color: #ffff00;
+    text-shadow: 3px;
+}
+
+a:link {
+    color: #000066;
+    text-transform: capitalize;
+    padding: 10px 9px;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffff00;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+table {
+    border-bottom: 1px solid brown;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    border-bottom: 1px solid brown;
+}
+
+td {
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #e67300;
+}
